@@ -1,10 +1,4 @@
-image:https://img.shields.io/github/license/source-c/sentry-tiny[GitHub]
-image:https://img.shields.io/clojars/v/net.tbt-post/sentry-tiny.svg[]
-image:https://img.shields.io/clojars/dt/net.tbt-post/sentry-tiny[ClojarsDownloads]
-image:https://img.shields.io/github/v/release/source-c/sentry-tiny[GitHub release (latest by date)]
-image:https://img.shields.io/github/release-date/source-c/sentry-tiny[GitHub Release Date]
-image:https://img.shields.io/github/v/tag/source-c/sentry-tiny[GitHub tag (latest by date)]
-image:https://img.shields.io/github/last-commit/source-c/sentry-tiny[GitHub last commit]
+![GitHub all releases](https://img.shields.io/github/downloads/PRIDEmartins/lidDrivenCativyFlowSolver/total?logo=Github)
 
 # lid-Driven Cativy flow solver
 
