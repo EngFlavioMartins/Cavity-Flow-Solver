@@ -10,7 +10,7 @@ Computationally-efficient CFD solver with user interface written in Python.
 
 The software contains a comprehensive UI that allows for parameters input and to pre-visualization of domain and grid sizing.
 
-![plot](./uiLibs/directory_2/UI.png)
+![plot](uiLibs/UI.png)
 
 ### Running a simulation:
 
