@@ -1,23 +1,10 @@
-</p>
-<p align="center">
-    <a href="https://github.com/PRIDEmartins/lidDrivenCativyFlowSolver/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
-    <a href="#backers" alt="Backers on Open Collective">
-        <img src="https://img.shields.io/opencollective/backers/shields" /></a>
-    <a href="https://github.com/PRIDEmartins/lidDrivenCativyFlowSolver/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
-    <a href="https://circleci.com/gh/badges/shields/tree/master">
-        <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
-    <a href="https://circleci.com/gh/badges/daily-tests">
-        <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
-            alt="service-test status"></a>
-    <a href="https://coveralls.io/github/badges/shields">
-        <img src="https://img.shields.io/coveralls/github/badges/shields"
-            alt="coverage"></a>
-    <a href="https://lgtm.com/projects/g/badges/shields/alerts/">
-        <img src="https://img.shields.io/lgtm/alerts/g/badges/shields"
-            alt="Total alerts"/></a>
-</p>
+image:https://img.shields.io/github/license/source-c/sentry-tiny[GitHub]
+image:https://img.shields.io/clojars/v/net.tbt-post/sentry-tiny.svg[]
+image:https://img.shields.io/clojars/dt/net.tbt-post/sentry-tiny[ClojarsDownloads]
+image:https://img.shields.io/github/v/release/source-c/sentry-tiny[GitHub release (latest by date)]
+image:https://img.shields.io/github/release-date/source-c/sentry-tiny[GitHub Release Date]
+image:https://img.shields.io/github/v/tag/source-c/sentry-tiny[GitHub tag (latest by date)]
+image:https://img.shields.io/github/last-commit/source-c/sentry-tiny[GitHub last commit]
 
 # lid-Driven Cativy flow solver
 
