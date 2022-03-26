@@ -3,8 +3,11 @@
 Computationally-efficient CFD solver with user interface written in Python.
 
 - Very efficient solver for unsteady lid-Driven cavity flow for problems with grid-sizes of up to 256x256 nodes. 
-- The pressure (Poisson) equation is efficiently solved using a 2-dimensional cosine transform based on xxx code
+- The pressure (Poisson) equation is efficiently solved using a 2-dimensional cosine transform based on the solver written by [Michio Inoue](https://github.com/mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver.git)
+
 - The solver outputs velocity and pressure fields
+
+![plot](uiLibs/Results.png)
 
 ## How to run:
 
@@ -42,6 +45,6 @@ See the [wiki](https://github.com/fogleman/Minecraft/wiki) for this project to i
 
 ### Known issues:
 
-- Selection of time-steps to save the data at (currently, the software stores data at every 10 time-steps only)
+- Selection of time-steps to save the data at is missing (currently, the software stores data at every 10 time-steps only).
 - Real-time plotting of velocity and pressure fields (avoided at the current stage of development for improved computational performance). 
 
