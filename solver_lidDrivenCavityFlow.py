@@ -36,7 +36,7 @@ def solve_flow(lx,ly,nx,ny,nt,Re,Co,my_dir):
       from solverLibs.functions import CorretorStep
 
       # Import plotting libraries:
-      from solverLibs.plot_results import plot_velocity_field
+      from uiLibs.plot_results import plot_velocity_field
 
       # Boundary conditions: they are always the same for this flow
 
