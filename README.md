@@ -1,20 +1,30 @@
 # lid-Driven Cativy flow solver
 
-Simple CFD solver with user interface written in Python.
+Computationally-efficient CFD solver with user interface written in Python.
 
-The API could contain functionality for the following:
+- Very efficient solver for unsteady lid-Driven cavity flow for problems with grid-sizes of up to 256x256 nodes. 
+- The pressure (Poisson) equation is efficiently solved using a 2-dimensional cosine transform based on xxx code
+- The solver outputs velocity and pressure fields
 
-- Easily configurable parameters like gravity, jump velocity, walking speed, etc.
-- Hooks for terrain generation.
+## How to run:
 
-## How to Run
+The software contains a comprehensive UI that allows for parameters input and to pre-visualization of domain and grid sizing.
 
-Recommended pre-installation of ```Anaconda enviroment
+![plot](./uiLibs/directory_2/UI.png)
 
-```shell
-git clone https://github.com/PRIDEmartins/Code.git
-python CAVITY_FLOW.py
-```
+### Running a simulation:
+
+Firstly, the user needs to input the following flow parameters:
+
+- nx, ny: number of grid elements in x- and y-directions
+- lx, ly: domain sizes in x- and y-directions
+- nt: number of time-steps
+- Co: target simulation's Coarant number (see )
+- Re: target flow's Reynolds number. Reynolds number is based on cavity's x-dimension.
+
+Secondly, the user has to select a directory to save the files under the Run console
+
+Finally, the simulation can be started by clickin on "Run".
 
 ### If you don't have pip or git
 
@@ -30,29 +40,8 @@ For git:
 
 See the [wiki](https://github.com/fogleman/Minecraft/wiki) for this project to install Python, and other tips.
 
-## How to run:
+### Known issues:
 
-![alt text](https://1drv.ms/u/s!Ao2qdFkyoOVdjqQam3q_9aYB7eNgTg?e=4iHgbL)
+- Selection of time-steps to save the data at (currently, the software stores data at every 10 time-steps only)
+- Real-time plotting of velocity and pressure fields (avoided at the current stage of development for improved computational performance). 
 
-### Moving
-
-- W: forward
-- S: back
-- A: strafe left
-- D: strafe right
-- Mouse: look around
-- Space: jump
-- Tab: toggle flying mode
-
-### Building
-
-- Selecting type of block to create:
-    - 1: brick
-    - 2: grass
-    - 3: sand
-- Mouse left-click: remove block
-- Mouse right-click: create block
-
-### Quitting
-
-- ESC: release mouse, then close window
