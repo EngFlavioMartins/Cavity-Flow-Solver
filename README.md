@@ -15,7 +15,7 @@ Computationally-efficient CFD solver with user interface written in Python.
 
 
 
-<img src="uiLibs/Results.png" width="100" height="100">
+<img src="uiLibs/Results.png" width="400">
 
 ## How to run:
 
