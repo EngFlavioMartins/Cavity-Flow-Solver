@@ -23,7 +23,7 @@ The software contains a comprehensive UI that allows for parameters input and to
 
 ### Running a simulation:
 
--Firstly, the user needs to input the following flow parameters:
+- Firstly, the user needs to input the following flow parameters:
 
   - nx, ny: number of grid elements in x- and y-directions
   - lx, ly: domain sizes in x- and y-directions
