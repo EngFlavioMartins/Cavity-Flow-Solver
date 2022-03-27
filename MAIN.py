@@ -117,6 +117,7 @@ def run():
 #=================================================================
 # Create three frames:
 #=================================================================
+
 # Create frames:
 frame_inputs = tk.LabelFrame(root, text='Inputs', relief="sunken", bg=second_colour)
 frame_run    = tk.LabelFrame(root, text='Run', relief="sunken", bg=my_colour)
@@ -206,6 +207,7 @@ button_run.pack(anchor="e", side="right", padx=5, pady=5)
 #=================================================================
 # Plot frame:
 #=================================================================
+
 # Create figure with background matching software's background:
 fig, ax = plt.subplots(figsize=(4, 4) )
 fig.patch.set_facecolor(my_colour)
