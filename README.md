@@ -51,6 +51,6 @@ See the [wiki](https://github.com/fogleman/Minecraft/wiki) for this project to i
 
 ### Known issues:
 
-- [ ]Selection of time-steps to save the data at is missing (currently, the software stores data at every 10 time-steps only).
-- [ ]Real-time plotting of velocity and pressure fields (avoided at the current stage of development for improved computational performance). 
+- [ ] Selection of time-steps to save the data at is missing (currently, the software stores data at every 10 time-steps only).
+- [ ] Real-time plotting of velocity and pressure fields (avoided at the current stage of development for improved computational performance). 
 - [ ] The provided example of plotting function does not work for grids of nx =/= ny
