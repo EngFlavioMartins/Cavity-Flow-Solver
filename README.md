@@ -2,8 +2,6 @@
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/YourFlavio?logoColor=black&style=social)
 
-
-
 # lid-Driven Cativy flow solver
 
 Computationally-efficient CFD solver with user interface written in Python.
@@ -11,7 +9,9 @@ Computationally-efficient CFD solver with user interface written in Python.
 - Very efficient solver for unsteady lid-Driven cavity flow for problems with grid-sizes of up to 256x256 nodes. 
 - The pressure (Poisson) equation is efficiently solved using a 2-dimensional cosine transform based on the solver written by [Michio Inoue](https://github.com/mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver.git)
 
-- The solver stores velocity and pressure fields for post-processing
+- The unsteady solver automatically stores velocity and pressure fields for post-processing
+
+- The solver can compute 100 convective times (nt=100) @ Re=1000, in a grid of 256x256 nodes, in less than 1 second! (if output results are not stored)
 
 <img src="uiLibs/Results.png" width="400">
 
@@ -46,8 +46,6 @@ For git:
 
 - Mac: install [Homebrew](http://mxcl.github.com/homebrew/) first, then `brew install git`.
 - Windows or Linux: see [Installing Git](http://git-scm.com/book/en/Getting-Started-Installing-Git) from the _Pro Git_ book.
-
-See the [wiki](https://github.com/fogleman/Minecraft/wiki) for this project to install Python, and other tips.
 
 ### Known issues:
 
