@@ -1,5 +1,9 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/PRIDEmartins/lidDrivenCativyFlowSolver/total?logo=Github)
 
+![Twitter Follow](https://img.shields.io/twitter/follow/YourFlavio?logoColor=black&style=social)
+
+
+
 # lid-Driven Cativy flow solver
 
 Computationally-efficient CFD solver with user interface written in Python.
