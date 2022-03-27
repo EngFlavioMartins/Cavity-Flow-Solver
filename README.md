@@ -44,7 +44,7 @@ For pip:
 
 For git:
 
-- Mac: install [Homebrew](http://mxcl.github.com/homebrew/) first, then `brew install git`.
+- Mac: install [Homebrew](https://github.com/Homebrew) first, then `brew install git`.
 - Windows or Linux: see [Installing Git](http://git-scm.com/book/en/Getting-Started-Installing-Git) from the _Pro Git_ book.
 
 ### Known issues:
