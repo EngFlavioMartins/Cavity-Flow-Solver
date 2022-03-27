@@ -13,15 +13,13 @@ Computationally-efficient CFD solver with user interface written in Python.
 
 - The solver stores velocity and pressure fields for post-processing
 
-
-
 <img src="uiLibs/Results.png" width="400">
 
 ## How to run:
 
 The software contains a comprehensive UI that allows for parameters input and to pre-visualization of domain and grid sizing.
 
-![plot](uiLibs/UI.png)
+<img src="uiLibs/UI.png" width="600">
 
 ### Running a simulation:
 
