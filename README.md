@@ -23,17 +23,17 @@ The software contains a comprehensive UI that allows for parameters input and to
 
 ### Running a simulation:
 
-Firstly, the user needs to input the following flow parameters:
+-Firstly, the user needs to input the following flow parameters:
 
-- nx, ny: number of grid elements in x- and y-directions
-- lx, ly: domain sizes in x- and y-directions
-- nt: number of time-steps
-- Co: target simulation's Coarant number (see )
-- Re: target flow's Reynolds number. Reynolds number is based on cavity's x-dimension.
+  - nx, ny: number of grid elements in x- and y-directions
+  - lx, ly: domain sizes in x- and y-directions
+  - nt: number of time-steps
+  - Co: target simulation's Coarant number (see )
+  - Re: target flow's Reynolds number. Reynolds number is based on cavity's x-dimension.
 
-Secondly, the user has to select a directory to save the files under the Run console
+- Secondly, the user has to select a directory to save the files under the Run console
 
-Finally, the simulation can be started by clickin on "Run".
+- Finally, the simulation can be started by clickin on "Run".
 
 ### If you don't have pip or git
 
