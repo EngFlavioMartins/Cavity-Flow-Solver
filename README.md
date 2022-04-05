@@ -2,7 +2,7 @@
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/YourFlavio?logoColor=black&style=social)
 
-# lid-Driven Cativy flow solver
+# lid-Driven Cavity flow solver
 
 Computationally-efficient CFD solver with user interface written in Python.
 
