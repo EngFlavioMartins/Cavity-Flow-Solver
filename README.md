@@ -1,6 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/PRIDEmartins/lidDrivenCativyFlowSolver/total?logo=Github) ![GitHub issues](https://img.shields.io/github/issues/PRIDEmartins/lidDrivenCativyFlowSolver)
-
-![Twitter Follow](https://img.shields.io/twitter/follow/YourFlavio?logoColor=black&style=social)
+![GitHub issues](https://img.shields.io/github/issues/PRIDEmartins/lidDrivenCativyFlowSolver)
 
 # lid-Driven Cavity flow solver
 
