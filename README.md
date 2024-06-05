@@ -9,7 +9,7 @@ Computationally-efficient CFD solver with user interface written in Python.
 
 - The unsteady solver automatically stores velocity and pressure fields for post-processing
 
-- The solver can compute 100 convective times (nt=100) @ Re=1000, in a grid of 256x256 nodes, in less than 1 second! (if output results are not stored)
+- The solver can compute 100 convective times ($n_t=100$) @ $Re=10^3$, in a grid of 256x256 nodes, in less than 1 second! (if output results are not stored)
 
 <img src="uiLibs/Results.png" width="400">
 
